@@ -1,0 +1,49 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary" no-border>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-menu-button menu="main-menu">
+          
+        </ion-menu-button>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="notification">
+        <ion-icon name="notifications-outline" color="light"></ion-icon>
+        <span>&nbsp;</span>
+      </ion-button>
+    </ion-buttons>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="banner" >
+    <div class="background-banner"></div>
+    <div class="caption ion-padding">
+      Limitless <br>
+      Solutions
+    </div>
+
+    <div class="btn-head">
+      <ion-button color="danger" routerLink="/request">Request Service</ion-button>
+    </div>
+  </div>
+  <div class="all-rouder">
+      <ion-card routerLink="/hardware">
+        <div>Hardware<ion-icon class="hard" name="cog-outline" slot="end"></ion-icon></div>
+      </ion-card>
+    
+      <ion-card routerLink="/network">
+        <div>Network<ion-icon class="net" name="cog-outline" slot="end"></ion-icon></div>
+      </ion-card>
+    
+    
+      <ion-card routerLink="/software">
+        <div>Software<ion-icon class="soft" name="cog-outline" slot="end"></ion-icon></div>
+      </ion-card>
+    
+  </div>
+</ion-content>
+
+

@@ -1,0 +1,43 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-header-bg {
+    height: 50px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.header-content{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+
+
+    h2{
+        font-weight: 300;
+        color: #86979f;
+    }
+
+    .menu-items {
+        margin: 0px;
+
+        ion-icon{
+            margin-right: 20px;
+            color: #86979f;
+        }
+
+        ion-item{
+            padding-left: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 1em;
+            color: #86979f;
+        }
+    }
+
+
+}

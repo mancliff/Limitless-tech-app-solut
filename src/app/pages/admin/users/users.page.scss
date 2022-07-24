@@ -1,0 +1,39 @@
+ion-toolbar{
+
+    text-align: center;
+
+    .backbtn{
+        margin-left: 5px;
+        font-size: 1.4rem;
+    }
+}
+
+hr{
+    background-color: gray;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-shadow: none;
+}
+
+ion-grid{
+
+    margin-top: 5px;
+}
+
+ion-card{
+    text-align: center;
+    box-shadow: none;
+    ion-icon{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 0.5px;
+        margin-top: 10px;
+    }
+    h2{
+        margin-top: 5px;
+        font-size: 1.2em;
+    }
+
+}

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button class="backbtn" routerLink="/tabs/home" routerDirection="back">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button class="notification">
+        <ion-icon name="notifications-outline" color="dart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title >Request service</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<div class="profile-info">
+  <ion-item>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input value="Clifton Tbg"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Address</ion-label>
+    <ion-input value="3523"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">City</ion-label>
+    <ion-input value="Pretoria"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input value="clifton.tbb@gmail.com"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Phone Number</ion-label>
+    <ion-input value="+27763458901"></ion-input>
+  </ion-item>
+</div>
+<div class="btn-lower">
+  <ion-button color="danger" routerLink="/request">Request</ion-button>
+</div>
+</ion-content>

@@ -1,0 +1,42 @@
+ion-toolbar{
+
+    text-align: center;
+}
+
+ion-grid{
+
+    margin-top: 25px;
+}
+
+ion-card{
+    text-align: center;
+    box-shadow: none;
+    ion-icon{
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 0.5px;
+        margin-top: 10px;
+    }
+    h2{
+        margin-top: 5px;
+        font-size: 1.2em;
+    }
+
+}
+
+.users{
+
+    background-color: coral;
+
+}
+
+.calls{
+
+    background-color: limegreen;
+}
+
+.archive{
+
+    background-color: orange;
+
+}
